@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio - Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,21 +17,24 @@
 
   <body>
     <header>
+      <div class="conteiner">
       <nav>
-        <a class="logo" href="" ><span class="logo-theme">Web</span><span class="logo-dark-theme">Studio</span></a>
+        <a class="logo link" href="" ><span class="logo-theme">Web</span><span class="logo-dark-theme">Studio</span></a>
         <ul class="list">
-          <li><a class="page-nav" href="./index.html">Студия</a></li>
-          <li><a class="page-nav current-page" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="page-nav" href="">Контакты</a></li>
+          <li><a class="page-nav link" href="./index.html">Студия</a></li>
+          <li><a class="page-nav current-page link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="page-nav link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="list">
-        <li><a class="contact-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="contact-nav link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact-nav link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+      </div>
     </header>
     <main>
       <section>
+        <div class="conteiner">
         <h1 class="visually-hidden list" aria-hidden="true" tabindex="-1">WebStudio - Портфолио</h1>
         <!-- Фильтр -->
         <ul class="filter list">
@@ -42,9 +46,9 @@
         </ul>
         <!-- Галерея проектов-->
         <ul class="list">
-          <li>
-            <a class="project" href="">
-              <img
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" 
                 src="./images/project1.jpg"
                 alt="веб-страница Технокряк, открытая на ноутбуке"
                 width="370"
@@ -54,9 +58,9 @@
               <p>Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" 
                 src="./images/project2.jpg"
                 alt="Постер к игре в баскетбол"
                 width="370"
@@ -66,9 +70,9 @@
               <p>Дизайн</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" 
                 src="./images/project3.jpg"
                 alt="Эмблема рыбного ресторана"
                 width="370"
@@ -78,44 +82,44 @@
               <p>Приложение</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img src="./images/project4.jpg" alt="Накладные наушники" />
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" src="./images/project4.jpg" alt="Накладные наушники" />
               <h2 class="project-title">Проект Prime</h2>
               <p>Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img src="./images/project5.jpg" alt="две коробки разных цветов и размеров" />
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" src="./images/project5.jpg" alt="две коробки разных цветов и размеров" />
               <h2 class="project-title">Проект Boxes</h2>
               <p>Приложение</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img src="./images/project6.jpg" alt="Монитор с изображением открытого веб-сайта" />
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" src="./images/project6.jpg" alt="Монитор с изображением открытого веб-сайта" />
               <h2 class="project-title">Inspiration has no Borders</h2>
               <p>веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img src="./images/project7.jpg" alt="Развернутая книга" />
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" src="./images/project7.jpg" alt="Развернутая книга" />
               <h2 class="project-title">Издание Limited Edition</h2>
               <p>Дизайн</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img src="./images/project8.jpg" alt="Бумажная бирка на шнурке" />
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" src="./images/project8.jpg" alt="Бумажная бирка на шнурке" />
               <h2 class="project-title">Проект LAB</h2>
               <p>Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a class="project" href="">
-              <img
+          <li class="project-item">
+            <a class="project-link link" href="">
+              <img class="img-no-gap" 
                 src="./images/project9.jpg"
                 alt="Ноутбук с открытым приложение Growing Bussines"
               />
@@ -124,22 +128,24 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
+    <!-- Футер -->
     <footer class="footer">
-      <a class="logo" href=""><span class="logo-primary-theme">Web</span><span class="logo-light-theme">Studio</span></a>
-      <address>
-        <ul class="list">
-          <li>
-            <a class="address"
-              href="https://goo.gl/maps/bSxCjzfuzKjN976c6"
-              target="_blank"
-              rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="conteiner">
+        <a class="logo link" href=""><span class="logo-primary-theme">Web</span><span class="logo-light-theme">Studio</span></a>
+        <address>
+          <ul class="list">
+            <li>
+              <a class="address" href="https://goo.gl/maps/bSxCjzfuzKjN976c6" target="_blank" rel="noreferrer noopener">г.
+                Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li><a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
